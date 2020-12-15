@@ -44,6 +44,10 @@ ul {
     letter-spacing: 0.02em;
     text-decoration: none;
 }
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+  color: var(--accent);
+}
 .auth-nav .link.current {
     color: var(--accent) 
 }
@@ -63,7 +67,7 @@ ul {
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
-    color: var(--title-text-color);
+    color: var(--accent);
   }
   .site-nav .link:active {
     color: var(--accent);
